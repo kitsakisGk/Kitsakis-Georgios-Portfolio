@@ -9,26 +9,50 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+  const nameArray = ['i', 'o', 'r', 'g', 'o', 's', ' ', 'K', 'i', 't', 's', 'a', 'k', 'i', 's']
   const jobArray = [
-    'w',
-    'e',
-    'b',
+    'D',
+    'a',
+    't',
+    'a',
     ' ',
-    'd',
+    'E',
+    'n',
+    'g',
+    'i',
+    'n',
     'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
     'e',
     'r',
+    ' ',
+    '|',
+    ' ',
+    'M',
     '.',
+    'S',
+    'c',
+    ' ',
+    'A',
+    'I',
+    ' ',
+    '&',
+    ' ',
+    'D',
+    'a',
+    't',
+    'a',
+    ' ',
+    'S',
+    'c',
+    'i',
+    'e',
+    'n',
+    'c',
+    'e',
   ]
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
@@ -59,7 +83,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>Data Engineer @ Accenture / Python & SQL Expert / ETL Specialist</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

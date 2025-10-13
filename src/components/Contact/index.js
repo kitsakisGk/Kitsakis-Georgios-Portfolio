@@ -11,7 +11,7 @@ const Contact = () => {
   const form = useRef()
 
   useEffect(() => {
-    return setTimeout(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
@@ -44,9 +44,9 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+            I am interested in Data Engineering and AI/ML opportunities - especially on challenging
+            projects involving ETL pipelines, data integration, or machine learning applications.
+            Feel free to reach out if you have any questions or would like to collaborate!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -85,20 +85,20 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Kitsakis Giorgos,
           <br />
-          Serbia,
+          Athens, Greece
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <span>kitsakisgk@gmail.com</span>
+          <br />
+          <span>+30 6985774053</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[37.9838, 23.7275]} zoom={11}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[37.9838, 23.7275]}>
+              <Popup>Athens, Greece - Home of Giorgos!</Popup>
             </Marker>
           </MapContainer>
         </div>

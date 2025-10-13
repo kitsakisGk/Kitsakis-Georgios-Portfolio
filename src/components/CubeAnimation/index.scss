@@ -1,0 +1,51 @@
+.cube-container {
+    z-index: 0;
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    animation: fadeIn 2s 1s;
+    animation-fill-mode: forwards;
+
+    .cube-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70%;
+      height: auto;
+      opacity: 1;
+      z-index: 1;
+      animation: float 6s ease-in-out infinite;
+    }
+  }
+
+  .cube-orange .cube-logo {
+    filter: drop-shadow(0 0 30px rgba(255, 107, 53, 0.6));
+  }
+
+  .cube-green .cube-logo {
+    filter: drop-shadow(0 0 30px rgba(0, 168, 107, 0.6)) hue-rotate(120deg);
+  }
+
+  .cube-blue .cube-logo {
+    filter: drop-shadow(0 0 30px rgba(94, 212, 244, 0.6)) hue-rotate(180deg);
+  }
+
+  .cube-purple .cube-logo {
+    filter: drop-shadow(0 0 30px rgba(168, 50, 255, 0.6)) hue-rotate(270deg);
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translate(-50%, -50%) translateY(0px) rotate(0deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) translateY(-20px) rotate(5deg);
+    }
+  }

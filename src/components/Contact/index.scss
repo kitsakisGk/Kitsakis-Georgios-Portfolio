@@ -35,34 +35,48 @@
   input[type='text'],
   input[type='email'] {
     width: 100%;
-    border: 0;
-    background: #115173;
+    border: 2px solid #123524;
+    background: #1a1a1a;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: #F0F8FF;
     padding: 0 20px;
     box-sizing: border-box;
+    transition: all 0.3s ease;
+
+    &:focus {
+      outline: none;
+      border-color: #00A86B;
+      background: #0a0a0a;
+    }
   }
 
   textarea {
     width: 100%;
-    border: 0;
-    background: #115173;
+    border: 2px solid #123524;
+    background: #1a1a1a;
     height: 50px;
     font-size: 16px;
-    color: #fff;
+    color: #F0F8FF;
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
+    transition: all 0.3s ease;
+
+    &:focus {
+      outline: none;
+      border-color: #00A86B;
+      background: #0a0a0a;
+    }
   }
 
   .flat-button {
-    color: #ffd700;
+    color: #FF6B35;
     font-size: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: 1px solid #ffd700;
+    border: 1px solid #FF6B35;
     float: left;
     border-radius: 4px;
     background: 0 0;
@@ -70,6 +84,13 @@
     float: right;
     text-align: center;
     margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: #FF6B35;
+      color: #0a0a0a;
+    }
   }
 }
 
@@ -92,26 +113,27 @@
 
 .info-map {
   position: absolute;
-  background: #000;
+  background: #123524;
   top: 50px;
   right: 30%;
   z-index: 999999;
   width: 267px;
   padding: 20px;
-  color: #fff;
+  color: #F0F8FF;
   font-family: 'Helvetica';
   font-size: 17px;
   font-weight: 300;
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
+  border: 2px solid #00A86B;
+  border-radius: 8px;
 
   span {
     font-size: 16px;
-
-    span {
-      color: #ffd700;
-    }
+    color: #FF6B35;
+    display: block;
+    margin: 5px 0;
   }
 }
 
