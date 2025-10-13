@@ -54,7 +54,7 @@ const About = () => {
               </div>
               <div className="contact-item">
                 <FontAwesomeIcon icon={faLinkedin} />
-                <a href="https://linkedin.com/in/giorgos-kitsakis" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/georgios-kitsakis-gr/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
             </div>
           </div>
