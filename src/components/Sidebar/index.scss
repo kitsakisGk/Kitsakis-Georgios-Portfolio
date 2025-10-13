@@ -37,16 +37,18 @@
         height: 51px;
         position: relative;
         text-decoration: none;
-  
+
         i {
           transition: all 0.3s ease-out;
         }
-  
+
         &:hover {
-          color: #FF6B35;
+          svg {
+            color: #FF6B35;
+          }
         }
       }
-  
+
       a.active {
         svg {
           color: #FF6B35;

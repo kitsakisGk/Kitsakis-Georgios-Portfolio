@@ -58,10 +58,10 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon 
+        <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
-          color="#ffd700"
+          color="#FF6B35"
           size="3x"
           className='close-icon' />
       </nav>
@@ -93,10 +93,10 @@ const Sidebar = () => {
           </a>
         </li>
       </ul>
-      <FontAwesomeIcon 
+      <FontAwesomeIcon
           onClick={() => setShowNav(true)}
           icon={faBars}
-          color="#ffd700"
+          color="#FF6B35"
           size="3x"
           className='hamburger-icon' />
     </div>

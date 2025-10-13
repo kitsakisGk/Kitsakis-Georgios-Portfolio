@@ -9,22 +9,25 @@ const Portfolio = () => {
     // Hardcoded portfolio projects from CV
     const portfolio = [
         {
-            name: "BloodCall - Google Solution Challenge",
-            description: "Top 10 Finalist among 4,000+ global teams. Android application for blood donation management built with Java Android, Firebase, Node.js, and JavaScript.",
+            name: "BloodCall",
+            subtitle: "Google Solution Challenge - Top 10",
+            description: "Android app for blood donation management with Java, Firebase, and Node.js. Top 10 among 4,000+ teams worldwide.",
             url: "https://github.com/BloodCall/BloodCall",
-            image: "https://raw.githubusercontent.com/BloodCall/BloodCall/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+            image: "https://images.unsplash.com/photo-1615461065929-4f8ffed6ca40?w=600&h=400&fit=crop"
         },
         {
-            name: "Smartphone Activity Recognition",
-            description: "Machine learning system for classifying physical activities from smartphone sensor data. Applied TensorFlow, scikit-learn, and feature engineering techniques. Bachelor thesis project.",
+            name: "Activity Recognition",
+            subtitle: "Bachelor Thesis Project",
+            description: "ML system classifying physical activities from smartphone sensors using TensorFlow and scikit-learn.",
             url: "https://github.com/kitsakisGk",
-            image: "https://raw.githubusercontent.com/tensorflow/tensorflow/master/tensorflow/lite/g3doc/images/mobile.png"
+            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop"
         },
         {
-            name: "FreePass - Web Application",
-            description: "Full-stack application for unemployment services, enabling free metro pass applications. Built with Java Spring Boot, PostgreSQL, JavaScript, HTML/CSS.",
+            name: "FreePass",
+            subtitle: "Full-Stack Web Application",
+            description: "Unemployment services platform built with Spring Boot, PostgreSQL, and modern JavaScript.",
             url: "https://github.com/kitsakisGk",
-            image: "https://spring.io/img/projects/spring-boot.svg"
+            image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop"
         }
     ];
 
@@ -41,17 +44,21 @@ const Portfolio = () => {
                     portfolio.map((port, idx) => {
                         return (
                             <div className="image-box" key={idx}>
-                                <img 
+                                <img
                                 src={port.image}
                                 className="portfolio-image"
-                                alt="portfolio" />
+                                alt={port.name}
+                                onError={(e) => {
+                                    e.target.src = 'https://via.placeholder.com/600x400/123524/00A86B?text=' + port.name.replace(' ', '+');
+                                }} />
                                 <div className="content">
                                     <p className="title">{port.name}</p>
-                                    <h4 className="description">{port.description}</h4>
+                                    <p className="subtitle">{port.subtitle}</p>
+                                    <p className="description">{port.description}</p>
                                     <button
                                         className="btn"
                                         onClick={() => window.open(port.url)}
-                                    >View</button>
+                                    >View Project</button>
                                 </div>
                             </div>
                         )
@@ -73,6 +80,14 @@ const Portfolio = () => {
                     />
                 </h1>
                 <div>{renderPortfolio(portfolio)}</div>
+                <div className="view-more-section">
+                    <button
+                        className="view-more-btn"
+                        onClick={() => window.open('https://github.com/kitsakisGk', '_blank')}
+                    >
+                        View More Projects on GitHub
+                    </button>
+                </div>
             </div>
             <Loader type="pacman" />
         </>

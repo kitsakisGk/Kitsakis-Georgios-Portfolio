@@ -3,7 +3,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import './index.scss'
 
 const About = () => {
@@ -41,8 +41,8 @@ const About = () => {
             </p>
             <div className="contact-info">
               <div className="contact-item">
-                <FontAwesomeIcon icon={faMapMarkerAlt} />
-                <span>Athens, Greece</span>
+                <FontAwesomeIcon icon={faPhone} />
+                <span>+30 6985774053</span>
               </div>
               <div className="contact-item">
                 <FontAwesomeIcon icon={faEnvelope} />

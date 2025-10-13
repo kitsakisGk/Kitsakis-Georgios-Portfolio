@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
+import Logo from '../Home/Logo'
 import './index.scss'
 
 const Contact = () => {
@@ -84,24 +84,7 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map">
-          Kitsakis Giorgos,
-          <br />
-          Athens, Greece
-          <br />
-          <br />
-          <span>kitsakisgk@gmail.com</span>
-          <br />
-          <span>+30 6985774053</span>
-        </div>
-        <div className="map-wrap">
-          <MapContainer center={[37.9838, 23.7275]} zoom={11}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[37.9838, 23.7275]}>
-              <Popup>Athens, Greece - Home of Giorgos!</Popup>
-            </Marker>
-          </MapContainer>
-        </div>
+        <Logo />
       </div>
       <Loader type="pacman" />
     </>
