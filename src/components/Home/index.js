@@ -11,6 +11,9 @@ const Home = () => {
 
   const nameArray = ['i', 'o', 'r', 'g', 'o', 's', ' ', 'K', 'i', 't', 's', 'a', 'k', 'i', 's']
   const jobArray = [
+    'M',
+    'L',
+    '/',
     'D',
     'a',
     't',
@@ -24,31 +27,6 @@ const Home = () => {
     'e',
     'e',
     'r',
-    ' ',
-    '|',
-    ' ',
-    'M',
-    '.',
-    'S',
-    'c',
-    ' ',
-    'A',
-    'I',
-    ' ',
-    '&',
-    ' ',
-    'D',
-    'a',
-    't',
-    'a',
-    ' ',
-    'S',
-    'c',
-    'i',
-    'e',
-    'n',
-    'c',
-    'e',
   ]
 
   useEffect(() => {
@@ -83,7 +61,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Data Engineer @ Accenture / Python & SQL Expert / ETL Specialist</h2>
+          <h2>Python (pandas, NumPy, scikit-learn) • SQL • ETL with Informatica (PowerCenter & IICS), SSIS • Power BI — basic Docker & Git</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

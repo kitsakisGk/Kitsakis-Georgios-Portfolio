@@ -39,14 +39,18 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['L', 'e', 't', "'", 's', ' ', 'c', 'o', 'l', 'l', 'a', 'b', 'o', 'r', 'a', 't', 'e']}
               idx={15}
             />
           </h1>
           <p>
-            I am interested in Data Engineering and AI/ML opportunities - especially on challenging
-            projects involving ETL pipelines, data integration, or machine learning applications.
-            Feel free to reach out if you have any questions or would like to collaborate!
+            I'm open to opportunities in <strong>Data Engineering</strong> and <strong>AI/ML</strong>.
+            I build reliable <strong>ETL</strong> pipelines (Informatica/SSIS), prepare analysis-ready datasets with
+            <strong> Python</strong> and <strong>SQL</strong>, and deliver clear <strong>Power BI</strong> insights.
+            If you're hiring or have a project in mind, feel free to reach out.
+          </p>
+          <p style={{ fontSize: '13px', color: '#8d8d8d', marginTop: '15px' }}>
+            Based in Athens • Open to remote or on-site in Greece
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
