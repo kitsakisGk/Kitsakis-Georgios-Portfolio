@@ -229,15 +229,84 @@
 @media screen and (max-width: 1200px) {
   .about-page {
     padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 100px;
     width: 100%;
-    overflow-y: auto;
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    overflow-y: visible;
 
     .text-zone {
       padding-right: 0;
+
+      h1 {
+        font-size: 36px !important;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    }
+  }
+
+  .about-section {
+    padding: 20px;
+    margin-bottom: 25px;
+
+    h2 {
+      font-size: 24px;
     }
 
-    h1 {
-      font-size: 40px !important;
+    h3 {
+      font-size: 17px;
+    }
+
+    h4 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+    .contact-item {
+      font-size: 13px;
+    }
+  }
+
+  .experience-item,
+  .education-item {
+    padding: 15px;
+
+    .experience-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 5px;
+
+      h3 {
+        min-width: auto;
+        width: 100%;
+      }
+
+      .date {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .award-item {
+    padding: 15px;
+
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 13px;
     }
   }
 }

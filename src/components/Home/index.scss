@@ -225,6 +225,8 @@
     }
 
     .home-page {
+      padding: 20px;
+      padding-top: 80px;
 
       .text-zone {
         position: initial;
@@ -232,6 +234,24 @@
         transform: none;
         padding: 10px;
         box-sizing: border-box;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 40px !important;
+        line-height: 45px;
+        margin-bottom: 20px;
+
+        img {
+          width: 28px;
+          margin-left: 10px;
+        }
+      }
+
+      h2 {
+        font-size: 10px;
+        letter-spacing: 2px;
+        margin-top: 15px;
       }
 
       .flat-button {
@@ -239,6 +259,8 @@
         display: block;
         margin: 20px auto 0 auto;
         width: 124px;
+        font-size: 12px;
+        padding: 8px 16px;
       }
 
       .logo-container {
