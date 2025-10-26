@@ -61,10 +61,20 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Python (pandas, NumPy, scikit-learn) • SQL • ETL with Informatica (PowerCenter & IICS), SSIS • Power BI — basic Docker & Git</h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
+          <h2>Data Engineer specializing in ETL Pipeline Design & Automation</h2>
+          <p className="home-description">
+            Building scalable data solutions with Informatica (PowerCenter & IICS), Oracle SQL, and MS SQL Server.
+            Experienced in machine learning with Python (TensorFlow, scikit-learn), Power BI dashboarding,
+            and full-stack development. Currently pursuing M.Sc. in AI & Data Science.
+          </p>
+          <div className="home-cta-buttons">
+            <Link to="/contact" className="flat-button">
+              CONTACT ME
+            </Link>
+            <Link to="/portfolio" className="flat-button secondary">
+              VIEW PROJECTS
+            </Link>
+          </div>
         </div>
         <Logo />
       </div>

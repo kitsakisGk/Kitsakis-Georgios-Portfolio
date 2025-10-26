@@ -11,6 +11,7 @@ import {
   faUser,
   faEnvelope,
   faSuitcase,
+  faFlask,
   faBars,
   faClose,
 } from '@fortawesome/free-solid-svg-icons'
@@ -49,6 +50,14 @@ const Sidebar = () => {
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+        </NavLink>
+        <NavLink
+          activeclassname="active"
+          className="research-link"
+          to="/research"
+          onClick={() => setShowNav(false)}
+        >
+          <FontAwesomeIcon icon={faFlask} color="#4d4d4e" />
         </NavLink>
         <NavLink
           activeclassname="active"

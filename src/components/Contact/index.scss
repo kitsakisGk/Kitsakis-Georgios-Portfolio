@@ -9,13 +9,13 @@
     max-width: 600px;
 
     h1 {
-      color: #F0F8FF;
+      color: var(--text-color);
       font-size: 53px;
       margin-bottom: 20px;
     }
 
     p {
-      color: #F0F8FF;
+      color: var(--text-color);
       font-size: 15px;
       line-height: 1.7;
     }
@@ -60,29 +60,29 @@
   input[type='text'],
   input[type='email'] {
     width: 100%;
-    border: 2px solid #123524;
-    background: #1a1a1a;
+    border: 2px solid var(--dark-green);
+    background: var(--surface-color);
     height: 50px;
     font-size: 16px;
-    color: #F0F8FF;
+    color: var(--text-color);
     padding: 0 20px;
     box-sizing: border-box;
     transition: all 0.3s ease;
 
     &:focus {
       outline: none;
-      border-color: #00A86B;
-      background: #0a0a0a;
+      border-color: var(--secondary-color);
+      background: var(--background-color);
     }
   }
 
   textarea {
     width: 100%;
-    border: 2px solid #123524;
-    background: #1a1a1a;
+    border: 2px solid var(--dark-green);
+    background: var(--surface-color);
     height: 50px;
     font-size: 16px;
-    color: #F0F8FF;
+    color: var(--text-color);
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
@@ -90,19 +90,19 @@
 
     &:focus {
       outline: none;
-      border-color: #00A86B;
-      background: #0a0a0a;
+      border-color: var(--secondary-color);
+      background: var(--background-color);
     }
   }
 
   .flat-button {
-    color: #FF6B35;
+    color: var(--primary-color);
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 2px;
     text-decoration: none;
     padding: 12px 24px;
-    border: 2px solid #FF6B35;
+    border: 2px solid var(--primary-color);
     border-radius: 4px;
     background: transparent;
     text-transform: uppercase;
@@ -112,10 +112,10 @@
     width: auto;
 
     &:hover {
-      background: #FF6B35;
-      color: #0a0a0a;
+      background: var(--primary-color);
+      color: var(--background-color);
       transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(255, 107, 53, 0.3);
+      box-shadow: 0 4px 8px var(--shadow-hover);
     }
   }
 }

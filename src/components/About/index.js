@@ -158,6 +158,41 @@ const About = () => {
               <p>Developed an Android application for blood donations to solve one of the 16 UN Goals. Reached Top 10 among around 4,000 participants.</p>
             </div>
           </div>
+
+          {/* Certificates Section */}
+          <div className="about-section awards-section">
+            <h2>Certificates</h2>
+            <div className="skill-category">
+              <h3>IBM Data Analyst Certificate</h3>
+              <p>Professional certificate in data analysis techniques and tools</p>
+            </div>
+            <div className="skill-category">
+              <h3>Statistics with Python Certificate</h3>
+              <p>Advanced statistical analysis using Python</p>
+            </div>
+            <div className="skill-category">
+              <h3>HealthCare Data Analyst Certificate</h3>
+              <p>Specialized training in healthcare data analytics</p>
+            </div>
+          </div>
+
+          {/* Languages Section */}
+          <div className="about-section skills-section">
+            <h2>Languages</h2>
+            <div className="skill-category">
+              <h3>Greek</h3>
+              <p>Native</p>
+            </div>
+            <div className="skill-category">
+              <h3>English</h3>
+              <p>Fluent</p>
+            </div>
+            <div className="skill-category">
+              <h3>Spanish</h3>
+              <p>Intermediate (Erasmus Exchange - University of Malaga)</p>
+            </div>
+          </div>
+
         </div>
       </div>
       <Loader type="pacman" />
