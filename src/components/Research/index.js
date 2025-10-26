@@ -28,42 +28,6 @@ const Research = () => {
       status: 'completed',
       url: 'https://github.com/kitsakisGk/Smartphone-Activity-Recognition',
     },
-    {
-      title: 'Practical Data Science',
-      type: 'Data Science Project',
-      authors: 'Georgios Kitsakis',
-      institution: 'Athens University of Economics and Business',
-      year: '2024',
-      description:
-        'Comprehensive data science project implementing complete ML pipeline from data collection to model deployment. Includes exploratory data analysis, feature engineering, model training, and evaluation.',
-      keywords: ['Python', 'Pandas', 'Scikit-learn', 'Jupyter', 'EDA'],
-      status: 'completed',
-      url: 'https://github.com/kitsakisGk/Practical-Data-Science',
-    },
-    {
-      title: 'Product Classification',
-      type: 'Machine Learning Project',
-      authors: 'Georgios Kitsakis',
-      institution: 'Athens University of Economics and Business',
-      year: '2024',
-      description:
-        'ML-based product classification system using natural language processing and supervised learning. Automated categorization of products with high accuracy using advanced feature extraction techniques.',
-      keywords: ['Python', 'NLP', 'Classification', 'Scikit-learn', 'Machine Learning'],
-      status: 'completed',
-      url: 'https://github.com/kitsakisGk/Product-Classification',
-    },
-    {
-      title: 'Text Analytics',
-      type: 'NLP Project',
-      authors: 'Georgios Kitsakis',
-      institution: 'Athens University of Economics and Business',
-      year: '2024',
-      description:
-        'Natural language processing project for text analytics and sentiment analysis. Implements various NLP techniques including tokenization, text preprocessing, and sentiment classification.',
-      keywords: ['Python', 'NLP', 'NLTK', 'Sentiment Analysis', 'Text Mining'],
-      status: 'completed',
-      url: 'https://github.com/kitsakisGk/Text-Analytics',
-    },
   ];
 
   // Research interests
@@ -129,14 +93,14 @@ const Research = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['P', 'u', 'b', 'l', 'i', 'c', 'a', 't', 'i', 'o', 'n', 's']}
+              strArray={['R', 'e', 's', 'e', 'a', 'r', 'c', 'h']}
               idx={15}
             />
           </h1>
 
           {/* Publications Section */}
           <div className="research-section">
-            <h2>Thesis</h2>
+            <h2>Publications & Thesis</h2>
             <div className="publications-grid">
               {publications.map((pub, index) => renderPublication(pub, index))}
             </div>

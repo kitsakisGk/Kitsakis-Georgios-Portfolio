@@ -58,32 +58,14 @@ const Portfolio = () => {
             name: "FreePass",
             subtitle: "Full-Stack Web Application",
             description: "Unemployment services platform enabling free metro pass applications. Complete full-stack solution with Spring Boot backend, PostgreSQL database, and responsive frontend.",
-            url: "https://github.com/kourounisgiorgos/FreePass",
+            url: "https://github.com/kitsakisGk/FreePass",
             image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
             tags: ["Spring Boot", "PostgreSQL", "JavaScript", "HTML/CSS"],
             category: "Web Development"
-        },
-        {
-            name: "ETL Pipeline Automation",
-            subtitle: "Enterprise Data Engineering @ Accenture",
-            description: "Designed and maintained high-volume ETL pipelines using Informatica PowerCenter & IICS for enterprise clients. Built complex data transformation workflows, automated data quality checks, and created SSIS packages for multi-source integration.",
-            url: "https://www.linkedin.com/in/georgios-kitsakis-gr/",
-            image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop",
-            tags: ["Informatica PowerCenter", "Informatica IICS", "Oracle SQL", "SSIS", "ETL"],
-            category: "Data Engineering"
-        },
-        {
-            name: "Real-Time Data Warehouse Integration",
-            subtitle: "Data Engineering & BI Solutions",
-            description: "Built real-time data warehouse solutions with automated ETL processes. Developed complex SQL stored procedures for data transformation, created incremental load strategies, and implemented data quality frameworks.",
-            url: "https://www.linkedin.com/in/georgios-kitsakis-gr/",
-            image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-            tags: ["MS SQL Server", "Oracle SQL", "Power BI", "Data Warehousing", "ETL"],
-            category: "Data Engineering"
         }
     ];
 
-    const categories = ['All', 'Mobile Development', 'Machine Learning', 'Web Development', 'Data Engineering'];
+    const categories = ['All', 'Mobile Development', 'Machine Learning', 'Web Development'];
 
     useEffect(() => {
         setTimeout(() => {
