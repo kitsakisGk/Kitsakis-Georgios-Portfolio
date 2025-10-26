@@ -19,7 +19,7 @@ const Portfolio = () => {
             category: "Mobile Development"
         },
         {
-            name: "Smartphone Activity Recognition",
+            name: "Algorithms for Physical Activity Measurements",
             subtitle: "Bachelor Thesis - ML Research Project",
             description: "Machine learning system for classifying physical activities from smartphone sensor data. Implemented multiple ML architectures comparing TensorFlow models with feature engineering techniques.",
             url: "https://github.com/kitsakisGk/Smartphone-Activity-Recognition",
@@ -28,10 +28,37 @@ const Portfolio = () => {
             category: "Machine Learning"
         },
         {
+            name: "Practical Data Science",
+            subtitle: "End-to-End Data Science Pipeline",
+            description: "Comprehensive data science project implementing complete ML pipeline from data collection to model deployment. Includes exploratory data analysis, feature engineering, model training, and evaluation.",
+            url: "https://github.com/kitsakisGk/Practical-Data-Science",
+            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+            tags: ["Python", "Pandas", "Scikit-learn", "Jupyter", "EDA"],
+            category: "Machine Learning"
+        },
+        {
+            name: "Product Classification",
+            subtitle: "Machine Learning Classification System",
+            description: "ML-based product classification system using natural language processing and supervised learning. Automated categorization of products with high accuracy using advanced feature extraction techniques.",
+            url: "https://github.com/kitsakisGk/Product-Classification",
+            image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
+            tags: ["Python", "NLP", "Classification", "Scikit-learn", "Machine Learning"],
+            category: "Machine Learning"
+        },
+        {
+            name: "Text Analytics",
+            subtitle: "NLP & Sentiment Analysis",
+            description: "Natural language processing project for text analytics and sentiment analysis. Implements various NLP techniques including tokenization, text preprocessing, and sentiment classification.",
+            url: "https://github.com/kitsakisGk/Text-Analytics",
+            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+            tags: ["Python", "NLP", "NLTK", "Sentiment Analysis", "Text Mining"],
+            category: "Machine Learning"
+        },
+        {
             name: "FreePass",
             subtitle: "Full-Stack Web Application",
-            description: "Unemployment services platform enabling free metro pass applications. Complete full-stack solution with modern architecture and database management.",
-            url: "https://github.com/kitsakisGk/FreePass",
+            description: "Unemployment services platform enabling free metro pass applications. Complete full-stack solution with Spring Boot backend, PostgreSQL database, and responsive frontend.",
+            url: "https://github.com/kourounisgiorgos/FreePass",
             image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
             tags: ["Spring Boot", "PostgreSQL", "JavaScript", "HTML/CSS"],
             category: "Web Development"
@@ -53,15 +80,6 @@ const Portfolio = () => {
             image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
             tags: ["MS SQL Server", "Oracle SQL", "Power BI", "Data Warehousing", "ETL"],
             category: "Data Engineering"
-        },
-        {
-            name: "Internal Tools Development",
-            subtitle: "Full-Stack Development @ Threenitas",
-            description: "Front-end development using JavaScript/HTML/CSS and Node.js services. Contributed to internal tools, bug fixes, and feature implementations.",
-            url: "https://github.com/kitsakisGk",
-            image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-            tags: ["JavaScript", "HTML/CSS", "Node.js", "Frontend"],
-            category: "Web Development"
         }
     ];
 

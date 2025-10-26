@@ -17,7 +17,7 @@ const Research = () => {
   // Research publications and papers
   const publications = [
     {
-      title: 'Algorithms for Physical Activity Measurement from Smartphone Sensors',
+      title: 'Algorithms for Physical Activity Measurements',
       type: 'Bachelor Thesis',
       authors: 'Georgios Kitsakis',
       institution: 'Harokopio University of Athens',
@@ -26,6 +26,7 @@ const Research = () => {
         'Development and implementation of machine learning algorithms for classifying physical activities using smartphone accelerometer and gyroscope sensors. Achieved high accuracy in activity recognition using TensorFlow and scikit-learn.',
       keywords: ['Machine Learning', 'Activity Recognition', 'Mobile Sensors', 'TensorFlow', 'Python'],
       status: 'completed',
+      url: 'https://github.com/kitsakisGk/Smartphone-Activity-Recognition',
     },
   ];
 
@@ -69,9 +70,19 @@ const Research = () => {
           </span>
         ))}
       </div>
-      {pub.status === 'completed' && (
-        <div className="publication-status completed">Completed</div>
-      )}
+      <div className="publication-footer">
+        {pub.status === 'completed' && (
+          <div className="publication-status completed">Completed</div>
+        )}
+        {pub.url && (
+          <button
+            className="view-project-btn"
+            onClick={() => window.open(pub.url, '_blank')}
+          >
+            View Project
+          </button>
+        )}
+      </div>
     </div>
   );
 
@@ -82,14 +93,14 @@ const Research = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['R', 'e', 's', 'e', 'a', 'r', 'c', 'h']}
+              strArray={['P', 'u', 'b', 'l', 'i', 'c', 'a', 't', 'i', 'o', 'n', 's']}
               idx={15}
             />
           </h1>
 
           {/* Publications Section */}
           <div className="research-section">
-            <h2>Publications & Thesis</h2>
+            <h2>Thesis</h2>
             <div className="publications-grid">
               {publications.map((pub, index) => renderPublication(pub, index))}
             </div>
@@ -136,9 +147,8 @@ const Research = () => {
               <h3>Master of Science in AI & Data Science</h3>
               <h4>Athens University of Economics and Business</h4>
               <p>
-                Currently pursuing advanced studies in artificial intelligence, machine learning,
-                and data science. Focus areas include deep learning, big data analytics, and
-                practical applications of AI in real-world scenarios.
+                Pursuing advanced studies in AI, machine learning, and data science with focus on deep learning,
+                big data analytics, and practical AI applications.
               </p>
             </div>
           </div>
