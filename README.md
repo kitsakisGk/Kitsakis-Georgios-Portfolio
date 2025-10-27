@@ -158,24 +158,6 @@ npm run deploy
 
 ---
 
-## Important Information
-
-### Is the site always online?
-✅ **YES!** Your portfolio is hosted 24/7 on GitHub's servers for FREE. It will stay online as long as:
-- Your GitHub account exists
-- The repository remains public
-
-### Does it cost money?
-❌ **NO!** GitHub Pages is completely FREE for public repositories.
-
-### How long do updates take?
-⏱️ Usually 1-2 minutes after running `npm run deploy`
-
-### Can I use a custom domain?
-✅ **YES!** You can buy a domain (like `georgekitsakis.com`) and configure it in GitHub repository settings under Pages.
-
----
-
 ## Project Structure
 
 ```
