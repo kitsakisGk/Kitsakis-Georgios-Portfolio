@@ -47,17 +47,14 @@ const Home = () => {
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
             <span className={`${letterClass} _15`}> </span>
-            <span className={`${letterClass} _16`}>G</span>
-            <AnimatedLetters
+            <span className={`${letterClass} _16`}>G</span><AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
               idx={17}
-            />
-            <img
+            /><img
               src={LogoTitle}
               alt="Georgios Kitsakis Logo"
-            />
-            <AnimatedLetters
+            /><AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray2}
               idx={20}
