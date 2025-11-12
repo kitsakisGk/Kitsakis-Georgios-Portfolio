@@ -43,10 +43,11 @@ const Research = () => {
   // Ongoing projects
   const ongoingProjects = [
     {
-      title: 'Health Data Analytics Research',
-      description: 'Exploring machine learning applications in healthcare data analysis and predictive modeling.',
+      title: 'AutoML-Forge',
+      description: 'Open-source platform for automatic ETL pipeline creation and ML model training. Features intelligent data profiling, AutoML training with model comparison, bilingual interface (EN/DE), and production-ready API generation. Built with FastAPI and Streamlit for rapid ML workflow acceleration.',
       status: 'In Progress',
-      technologies: ['Python', 'TensorFlow', 'PyTorch', 'Pandas'],
+      technologies: ['Python', 'FastAPI', 'Streamlit', 'Docker', 'SHAP', 'AutoML'],
+      url: 'https://github.com/kitsakisGk/AutoML-Forge',
     },
   ];
 
@@ -122,6 +123,15 @@ const Research = () => {
                       </span>
                     ))}
                   </div>
+                  {project.url && (
+                    <button
+                      className="view-project-btn"
+                      onClick={() => window.open(project.url, '_blank')}
+                      style={{ marginTop: '15px' }}
+                    >
+                      View Project
+                    </button>
+                  )}
                 </div>
               ))}
             </div>

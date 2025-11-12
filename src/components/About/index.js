@@ -31,13 +31,12 @@ const About = () => {
           <div className="about-section profile-section">
             <h2>Profile</h2>
             <p>
-              Data Engineer with expertise in building and optimizing ETL pipelines using
-              Informatica (PowerCenter & IICS), Oracle SQL, and MS SQL Server. Proficient in
-              Python (pandas, NumPy, scikit-learn, TensorFlow, PyTorch) for data processing and
-              machine learning applications. Experienced in developing automated data solutions,
-              creating Power BI reports, and ensuring data quality across enterprise systems.
-              Currently pursuing M.Sc. in AI & Data Science with a strong foundation in software
-              development and ML model implementation.
+              Data & ML Engineer with expertise in building ETL pipelines using Informatica (PowerCenter & IICS)
+              and SQL (Oracle, MS SQL Server). Proficient in Python (TensorFlow, PyTorch, scikit-learn, pandas, NumPy)
+              for machine learning and data processing. Experienced in streaming data with Apache Kafka, cloud ETL
+              workflows with Azure (Data Factory, Storage), Power BI dashboarding, and full-stack development.
+              Background in developing ML models for sensor data classification and creating scalable data infrastructure.
+              Currently pursuing M.Sc. in AI & Data Science at Athens University of Economics and Business.
             </p>
             <div className="contact-info">
               <div className="contact-item">
@@ -64,7 +63,7 @@ const About = () => {
             <h2>Skills</h2>
             <div className="skill-category">
               <h3>Data Engineering</h3>
-              <p>Informatica PowerCenter, Informatica IICS, SSIS, ETL Design</p>
+              <p>Informatica PowerCenter, Informatica IICS, SSIS, ETL Design, Azure (Data Factory, Storage)</p>
             </div>
             <div className="skill-category">
               <h3>Databases</h3>
@@ -72,7 +71,11 @@ const About = () => {
             </div>
             <div className="skill-category">
               <h3>Programming</h3>
-              <p>Python (pandas, NumPy, scikit-learn, TensorFlow, PyTorch), SQL, Java, JavaScript</p>
+              <p>Python (TensorFlow, PyTorch, scikit-learn, pandas, NumPy), SQL, Java, JavaScript</p>
+            </div>
+            <div className="skill-category">
+              <h3>Streaming & Integration</h3>
+              <p>Apache Kafka, REST/JSON APIs</p>
             </div>
             <div className="skill-category">
               <h3>Visualization & BI</h3>
