@@ -9,8 +9,7 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['i', 'o', 'r', 'g', 'o', 's']
-  const nameArray2 = ['K', 'i', 't', 's', 'a', 'k', 'i', 's']
+  const nameArray = ['i', 'o', 'r', 'g', 'o', 's', ' ', 'K', 'i', 't', 's', 'a', 'k', 'i', 's']
   const jobArray = [
     'M',
     'L',
@@ -47,17 +46,11 @@ const Home = () => {
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
             <span className={`${letterClass} _15`}> </span>
-            <span className={`${letterClass} _16`}>G</span><AnimatedLetters
+            <span className={`${letterClass} _16`}>G</span>
+            <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
               idx={17}
-            /><img
-              src={LogoTitle}
-              alt="Georgios Kitsakis Logo"
-            /><AnimatedLetters
-              letterClass={letterClass}
-              strArray={nameArray2}
-              idx={20}
             />
             <br />
             <AnimatedLetters
