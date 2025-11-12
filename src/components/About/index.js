@@ -31,12 +31,12 @@ const About = () => {
           <div className="about-section profile-section">
             <h2>Profile</h2>
             <p>
-              Data & ML Engineer with expertise in building ETL pipelines using Informatica (PowerCenter & IICS)
-              and SQL (Oracle, MS SQL Server). Proficient in Python (TensorFlow, PyTorch, scikit-learn, pandas, NumPy)
-              for machine learning and data processing. Experienced in streaming data with Apache Kafka, cloud ETL
-              workflows with Azure (Data Factory, Storage), Power BI dashboarding, and full-stack development.
-              Background in developing ML models for sensor data classification and creating scalable data infrastructure.
-              Currently pursuing M.Sc. in AI & Data Science at Athens University of Economics and Business.
+              Data & ML Engineer passionate about building scalable data solutions and ML systems that drive business impact.
+              Expert in designing and implementing ETL pipelines with modern data platforms including Informatica, Databricks,
+              and cloud-native tools (Azure Data Factory). Strong foundation in SQL (Oracle, MS SQL Server) for data transformation
+              and Python (TensorFlow, PyTorch, scikit-learn) for ML development. Experienced in real-time data processing with
+              Apache Kafka and creating insightful dashboards with Power BI. Currently pursuing M.Sc. in AI & Data Science at
+              Athens University of Economics and Business, combining cutting-edge research with practical industry applications.
             </p>
             <div className="contact-info">
               <div className="contact-item">
@@ -63,7 +63,7 @@ const About = () => {
             <h2>Skills</h2>
             <div className="skill-category">
               <h3>Data Engineering</h3>
-              <p>Informatica PowerCenter, Informatica IICS, SSIS, ETL Design, Azure (Data Factory, Storage)</p>
+              <p>Informatica PowerCenter, Informatica IICS, Databricks, SSIS, ETL Design, Azure (Data Factory, Storage)</p>
             </div>
             <div className="skill-category">
               <h3>Databases</h3>

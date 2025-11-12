@@ -10,7 +10,7 @@ const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['i', 'o', 'r']
-  const nameArray2 = ['o', 's', ' ', 'K', 'i', 't', 's', 'a', 'k', 'i', 's']
+  const nameArray2 = ['g', 'o', 's', ' ', 'K', 'i', 't', 's', 'a', 'k', 'i', 's']
   const jobArray = [
     'M',
     'L',
@@ -71,10 +71,10 @@ const Home = () => {
           </h1>
           <h2>Data & ML Engineer</h2>
           <p className="home-description">
-            Expertise in building ETL pipelines with Informatica (PowerCenter & IICS) and SQL (Oracle, MS SQL Server).
-            Experienced in machine learning with Python (TensorFlow, PyTorch, scikit-learn), streaming data with Apache Kafka,
-            and cloud ETL workflows with Azure (Data Factory, Storage). Passionate about leveraging data and ML to build impactful products at scale.
-            Currently pursuing M.Sc. in AI & Data Science at AUEB.
+            Specialized in building production-grade ETL pipelines and ML solutions. Experienced with modern data stacks
+            including Informatica, Databricks, Apache Kafka for streaming, and cloud platforms (Azure). Proficient in Python
+            (TensorFlow, PyTorch, scikit-learn) for ML model development and SQL for data engineering. Currently pursuing
+            M.Sc. in AI & Data Science, combining academic research with hands-on industry experience.
           </p>
           <div className="home-cta-buttons">
             <Link to="/contact" className="flat-button">
