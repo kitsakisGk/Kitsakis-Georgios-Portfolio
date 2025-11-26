@@ -28,30 +28,21 @@ const Portfolio = () => {
             category: "Machine Learning"
         },
         {
-            name: "Practical Data Science",
-            subtitle: "End-to-End Data Science Pipeline",
-            description: "Comprehensive data science project implementing complete ML pipeline from data collection to model deployment. Includes exploratory data analysis, feature engineering, model training, and evaluation.",
-            url: "https://github.com/kitsakisGk/Practical-Data-Science",
-            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-            tags: ["Python", "Pandas", "Scikit-learn", "Jupyter", "EDA"],
+            name: "AutoML-Forge",
+            subtitle: "M.Sc. Research Project - Automated ML Pipeline",
+            description: "Open-source platform for automatic ETL pipeline creation and ML model training. Features intelligent data profiling, AutoML training with model comparison, bilingual interface (EN/DE), and production-ready API generation. Built with FastAPI and Streamlit for rapid ML workflow acceleration.",
+            url: "https://github.com/kitsakisGk/AutoML-Forge",
+            image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&h=400&fit=crop",
+            tags: ["Python", "FastAPI", "Streamlit", "Docker", "SHAP", "AutoML"],
             category: "Machine Learning"
         },
         {
-            name: "Product Classification",
-            subtitle: "Machine Learning Classification System",
-            description: "ML-based product classification system using natural language processing and supervised learning. Automated categorization of products with high accuracy using advanced feature extraction techniques.",
-            url: "https://github.com/kitsakisGk/Product-Classification",
-            image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
-            tags: ["Python", "NLP", "Classification", "Scikit-learn", "Machine Learning"],
-            category: "Machine Learning"
-        },
-        {
-            name: "Text Analytics",
-            subtitle: "NLP & Sentiment Analysis",
-            description: "Natural language processing project for text analytics and sentiment analysis. Implements various NLP techniques including tokenization, text preprocessing, and sentiment classification.",
-            url: "https://github.com/kitsakisGk/Text-Analytics",
+            name: "Advanced Data Science & NLP Projects",
+            subtitle: "M.Sc. Coursework - ML & Text Analytics",
+            description: "Collection of Master's level projects including end-to-end ML pipelines, product classification with NLP, sentiment analysis, and text mining. Covers practical data science workflows from data collection to deployment with advanced feature engineering and model evaluation.",
+            url: "https://github.com/kitsakisGk?tab=repositories",
             image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-            tags: ["Python", "NLP", "NLTK", "Sentiment Analysis", "Text Mining"],
+            tags: ["Python", "NLP", "Scikit-learn", "Pandas", "Text Mining", "EDA"],
             category: "Machine Learning"
         },
         {
