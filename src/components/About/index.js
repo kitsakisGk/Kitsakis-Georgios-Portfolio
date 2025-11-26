@@ -63,27 +63,39 @@ const About = () => {
             <h2>Skills</h2>
             <div className="skill-category">
               <h3>Data Engineering</h3>
-              <p>Informatica PowerCenter, Informatica IICS, Databricks, SSIS, ETL Design, Azure (Data Factory, Storage)</p>
+              <p>Informatica PowerCenter, Informatica IICS, Databricks, SSIS, ETL Design, Azure (Data Factory, Storage), Apache Spark (PySpark)</p>
             </div>
             <div className="skill-category">
-              <h3>Databases</h3>
-              <p>Oracle SQL, MS SQL Server, PostgreSQL, MySQL</p>
+              <h3>Databases & Big Data</h3>
+              <p>Oracle SQL, MS SQL Server, PostgreSQL, MySQL, Apache Kafka, Apache Cassandra, Neo4j (Graph DB), Hadoop MapReduce</p>
             </div>
             <div className="skill-category">
-              <h3>Programming</h3>
-              <p>Python (TensorFlow, PyTorch, scikit-learn, pandas, NumPy), SQL, Java, JavaScript</p>
+              <h3>Machine Learning & Deep Learning</h3>
+              <p>Python (TensorFlow, PyTorch, scikit-learn, XGBoost), Transformers (Hugging Face), PEFT/LoRA, Keras</p>
             </div>
             <div className="skill-category">
-              <h3>Streaming & Integration</h3>
-              <p>Apache Kafka, REST/JSON APIs</p>
+              <h3>NLP & Text Analytics</h3>
+              <p>NLTK, spaCy, Gensim, BERT, GPT, Topic Modeling, Sentiment Analysis</p>
+            </div>
+            <div className="skill-category">
+              <h3>Data Science & Analytics</h3>
+              <p>pandas, NumPy, SciPy, statsmodels, Feature Engineering, Statistical Modeling, Customer Analytics</p>
+            </div>
+            <div className="skill-category">
+              <h3>Explainable AI</h3>
+              <p>LIME, SHAP, DiCE (Counterfactual Explanations), Anchors</p>
             </div>
             <div className="skill-category">
               <h3>Visualization & BI</h3>
-              <p>Power BI, Tableau</p>
+              <p>Power BI, Tableau, Matplotlib, Seaborn, Plotly, Altair, ggplot2 (R)</p>
+            </div>
+            <div className="skill-category">
+              <h3>Programming Languages</h3>
+              <p>Python, SQL, R, Java, JavaScript, Scala, Cypher (Graph Queries)</p>
             </div>
             <div className="skill-category">
               <h3>Tools & Platforms</h3>
-              <p>Git, Docker, Node.js, Spring Boot</p>
+              <p>Git, Docker, Docker Compose, Vagrant, Jupyter, Node.js, Spring Boot, FastAPI, Streamlit</p>
             </div>
           </div>
 
