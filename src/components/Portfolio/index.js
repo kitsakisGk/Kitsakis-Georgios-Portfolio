@@ -40,7 +40,7 @@ const Portfolio = () => {
             name: "Advanced Data Science & NLP Projects",
             subtitle: "M.Sc. Coursework - ML & Text Analytics",
             description: "Collection of Master's level projects including end-to-end ML pipelines, product classification with NLP, sentiment analysis, and text mining. Covers practical data science workflows from data collection to deployment with advanced feature engineering and model evaluation.",
-            url: "https://github.com/kitsakisGk?tab=repositories",
+            url: "https://github.com/kitsakisGk/Masters_AUEB",
             image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
             tags: ["Python", "NLP", "Scikit-learn", "Pandas", "Text Mining", "EDA"],
             category: "Machine Learning"
