@@ -4,6 +4,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
 import Portfolio from './components/Portfolio'
+import Research from './components/Research'
 import Dashboard from './components/Dashboard'
 import './App.scss'
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/research" element={<Research />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Route>
       </Routes>
