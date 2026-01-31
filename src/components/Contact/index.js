@@ -43,14 +43,15 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I'm open to opportunities in <strong>Data Engineering</strong> and <strong>AI/ML</strong>.
-            I build reliable <strong>ETL</strong> pipelines (Informatica/SSIS), prepare analysis-ready datasets with
-            <strong> Python</strong> and <strong>SQL</strong>, and deliver clear <strong>Power BI</strong> insights.
-            If you're hiring or have a project in mind, feel free to reach out.
+          <p style={{ fontSize: '14px', lineHeight: '1.7' }}>
+            I'm passionate about building <strong>data-driven solutions</strong> that create real impact.
+            With expertise in <strong>ETL pipeline development</strong> (Informatica, Databricks, Apache Kafka),
+            <strong> machine learning</strong> (TensorFlow, PyTorch, scikit-learn), and <strong>cloud data workflows</strong> (Azure),
+            I transform raw data into actionable insights. Whether you're looking to optimize your data infrastructure,
+            implement ML solutions, or build scalable data pipelines, I'm here to help bring your vision to life.
           </p>
           <p style={{ fontSize: '13px', color: '#8d8d8d', marginTop: '15px' }}>
-            Based in Athens • Open to remote or on-site in Greece
+            <strong>Based in Athens, Greece</strong> • Open to remote opportunities worldwide
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

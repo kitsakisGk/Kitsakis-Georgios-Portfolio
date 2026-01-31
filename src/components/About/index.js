@@ -31,13 +31,12 @@ const About = () => {
           <div className="about-section profile-section">
             <h2>Profile</h2>
             <p>
-              Data Engineer with expertise in building and optimizing ETL pipelines using
-              Informatica (PowerCenter & IICS), Oracle SQL, and MS SQL Server. Proficient in
-              Python (pandas, NumPy, scikit-learn, TensorFlow, PyTorch) for data processing and
-              machine learning applications. Experienced in developing automated data solutions,
-              creating Power BI reports, and ensuring data quality across enterprise systems.
-              Currently pursuing M.Sc. in AI & Data Science with a strong foundation in software
-              development and ML model implementation.
+              Data & ML Engineer passionate about building scalable data solutions and ML systems that drive business impact.
+              Expert in designing and implementing ETL pipelines with modern data platforms including Informatica, Databricks,
+              and cloud-native tools (Azure Data Factory). Strong foundation in SQL (Oracle, MS SQL Server) for data transformation
+              and Python (TensorFlow, PyTorch, scikit-learn) for ML development. Experienced in real-time data processing with
+              Apache Kafka and creating insightful dashboards with Power BI. Currently pursuing M.Sc. in AI & Data Science at
+              Athens University of Economics and Business, combining cutting-edge research with practical industry applications.
             </p>
             <div className="contact-info">
               <div className="contact-item">
@@ -64,27 +63,39 @@ const About = () => {
             <h2>Skills</h2>
             <div className="skill-category">
               <h3>Data Engineering</h3>
-              <p>Informatica PowerCenter, Informatica IICS, SSIS, ETL Design</p>
+              <p>Informatica PowerCenter, Informatica IICS, Databricks, SSIS, ETL Design, Azure (Data Factory, Storage), Apache Spark (PySpark)</p>
             </div>
             <div className="skill-category">
-              <h3>Databases</h3>
-              <p>Oracle SQL, MS SQL Server, PostgreSQL, MySQL</p>
+              <h3>Databases & Big Data</h3>
+              <p>Oracle SQL, MS SQL Server, PostgreSQL, MySQL, Apache Kafka, Apache Cassandra, Neo4j (Graph DB), Hadoop MapReduce</p>
             </div>
             <div className="skill-category">
-              <h3>Programming</h3>
-              <p>Python (pandas, NumPy, scikit-learn, TensorFlow, PyTorch), SQL, Java, JavaScript</p>
+              <h3>Machine Learning & Deep Learning</h3>
+              <p>Python (TensorFlow, PyTorch, scikit-learn, XGBoost), Transformers (Hugging Face), PEFT/LoRA, Keras</p>
+            </div>
+            <div className="skill-category">
+              <h3>NLP & Text Analytics</h3>
+              <p>NLTK, spaCy, Gensim, BERT, GPT, Topic Modeling, Sentiment Analysis</p>
+            </div>
+            <div className="skill-category">
+              <h3>Data Science & Analytics</h3>
+              <p>pandas, NumPy, SciPy, statsmodels, Feature Engineering, Statistical Modeling, Customer Analytics</p>
+            </div>
+            <div className="skill-category">
+              <h3>Explainable AI</h3>
+              <p>LIME, SHAP, DiCE (Counterfactual Explanations), Anchors</p>
             </div>
             <div className="skill-category">
               <h3>Visualization & BI</h3>
-              <p>Power BI, Tableau</p>
+              <p>Power BI, Tableau, Matplotlib, Seaborn, Plotly, Altair, ggplot2 (R)</p>
+            </div>
+            <div className="skill-category">
+              <h3>Programming Languages</h3>
+              <p>Python, SQL, R, Java, JavaScript, Scala, Cypher (Graph Queries)</p>
             </div>
             <div className="skill-category">
               <h3>Tools & Platforms</h3>
-              <p>Git, Docker, Node.js, Spring Boot</p>
-            </div>
-            <div className="skill-category">
-              <h3>Languages</h3>
-              <p>Greek (Native), English (Fluent), Spanish (Intermediate), German (Beginner - Currently learning)</p>
+              <p>Git, Docker, Docker Compose, Vagrant, Jupyter, Node.js, Spring Boot, FastAPI, Streamlit</p>
             </div>
           </div>
 
@@ -162,6 +173,45 @@ const About = () => {
               <p>Developed an Android application for blood donations to solve one of the 16 UN Goals. Reached Top 10 among around 4,000 participants.</p>
             </div>
           </div>
+
+          {/* Certificates Section */}
+          <div className="about-section awards-section">
+            <h2>Certificates</h2>
+            <div className="skill-category">
+              <h3>IBM Data Analyst Certificate</h3>
+              <p>Professional certificate in data analysis techniques and tools</p>
+            </div>
+            <div className="skill-category">
+              <h3>Statistics with Python Certificate</h3>
+              <p>Advanced statistical analysis using Python</p>
+            </div>
+            <div className="skill-category">
+              <h3>HealthCare Data Analyst Certificate</h3>
+              <p>Specialized training in healthcare data analytics</p>
+            </div>
+          </div>
+
+          {/* Languages Section */}
+          <div className="about-section skills-section">
+            <h2>Languages</h2>
+            <div className="skill-category">
+              <h3>Greek</h3>
+              <p>Native</p>
+            </div>
+            <div className="skill-category">
+              <h3>English</h3>
+              <p>Fluent</p>
+            </div>
+            <div className="skill-category">
+              <h3>Spanish</h3>
+              <p>Intermediate (Erasmus Exchange - University of Malaga)</p>
+            </div>
+            <div className="skill-category">
+              <h3>German</h3>
+              <p>Beginner - Currently learning</p>
+            </div>
+          </div>
+
         </div>
       </div>
       <Loader type="pacman" />
