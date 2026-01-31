@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
+import Footer from '../Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -82,6 +83,10 @@ const About = () => {
               <h3>Tools & Platforms</h3>
               <p>Git, Docker, Node.js, Spring Boot</p>
             </div>
+            <div className="skill-category">
+              <h3>Languages</h3>
+              <p>Greek (Native), English (Fluent), Spanish (Intermediate), German (Beginner - Currently learning)</p>
+            </div>
           </div>
 
           {/* Experience Section */}
@@ -134,7 +139,7 @@ const About = () => {
             <div className="education-item">
               <div className="experience-header">
                 <h3>Master of AI & Data Science</h3>
-                <span className="date">In Progress</span>
+                <span className="date">Oct 2024 - Mar 2026</span>
               </div>
               <h4>Athens University of Economics and Business</h4>
             </div>
@@ -160,6 +165,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer />
       <Loader type="pacman" />
     </>
   )
