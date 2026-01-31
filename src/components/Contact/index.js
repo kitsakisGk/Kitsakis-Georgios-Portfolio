@@ -3,7 +3,6 @@ import Loader from 'react-loaders'
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
-import Footer from '../Footer'
 import Logo from '../Home/Logo'
 import './index.scss'
 
@@ -91,7 +90,6 @@ const Contact = () => {
         </div>
         <Logo />
       </div>
-      <Footer />
       <Loader type="pacman" />
     </>
   )

@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
-import Footer from '../Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -165,7 +164,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Footer />
       <Loader type="pacman" />
     </>
   )

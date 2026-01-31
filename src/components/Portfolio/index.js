@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
-import Footer from "../Footer";
 import "./index.scss";
 
 const Portfolio = () => {
@@ -90,7 +89,6 @@ const Portfolio = () => {
                     </button>
                 </div>
             </div>
-            <Footer />
             <Loader type="pacman" />
         </>
     );
