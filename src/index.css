@@ -1,3 +1,35 @@
+:root {
+  /* Default (Dark) Theme */
+  --primary-color: #FF6B35;
+  --secondary-color: #00A86B;
+  --dark-green: #123524;
+  --background-color: #0a0a0a;
+  --surface-color: #1a1a1a;
+  --text-color: #F0F8FF;
+  --text-secondary: #8d8d8d;
+  --grey-dark: #2a2a2a;
+  --grey-medium: #444444;
+  --grey-light: #666666;
+  --shadow: rgba(0, 0, 0, 0.3);
+  --shadow-hover: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='light'] {
+  /* Light Theme */
+  --primary-color: #FF6B35;
+  --secondary-color: #00A86B;
+  --dark-green: #123524;
+  --background-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --text-color: #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --grey-dark: #e0e0e0;
+  --grey-medium: #c0c0c0;
+  --grey-light: #a0a0a0;
+  --shadow: rgba(0, 0, 0, 0.1);
+  --shadow-hover: rgba(0, 0, 0, 0.2);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -5,12 +37,13 @@ html {
 body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', sans-serif;
-  color: #F0F8FF;
+  color: var(--text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0a0a0a;
+  background: var(--background-color);
   overflow: hidden;
   display: block;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dashboard {
