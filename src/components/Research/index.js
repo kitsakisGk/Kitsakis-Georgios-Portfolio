@@ -17,6 +17,18 @@ const Research = () => {
   // Research publications and papers
   const publications = [
     {
+      title: 'Credit Risk Assessment Pipeline on Databricks',
+      type: 'M.Sc. Research Project',
+      authors: 'Georgios Kitsakis',
+      institution: 'Athens University of Economics and Business',
+      year: '2025',
+      description:
+        'Production-ready credit risk assessment pipeline built on Databricks. Features automated data ingestion, feature engineering, model training with MLflow tracking, and explainable AI with SHAP. Demonstrates enterprise-grade ML workflows with Delta Lake and Spark.',
+      keywords: ['Databricks', 'PySpark', 'MLflow', 'Delta Lake', 'SHAP', 'Credit Risk', 'XGBoost'],
+      status: 'completed',
+      url: 'https://github.com/kitsakisGk/Credit_Risk_Databricks_Pipeline',
+    },
+    {
       title: 'Algorithms for Physical Activity Measurements',
       type: 'Bachelor Thesis',
       authors: 'Georgios Kitsakis',

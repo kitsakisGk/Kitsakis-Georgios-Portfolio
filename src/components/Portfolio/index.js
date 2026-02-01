@@ -10,6 +10,15 @@ const Portfolio = () => {
     // Enhanced portfolio projects with tags and categories
     const portfolio = [
         {
+            name: "Credit Risk Databricks Pipeline",
+            subtitle: "M.Sc. Research Project - End-to-End ML Pipeline",
+            description: "Production-ready credit risk assessment pipeline built on Databricks. Features automated data ingestion, feature engineering, model training with MLflow tracking, and explainable AI with SHAP. Demonstrates enterprise-grade ML workflows with Delta Lake and Spark.",
+            url: "https://github.com/kitsakisGk/Credit_Risk_Databricks_Pipeline",
+            image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+            tags: ["Databricks", "PySpark", "MLflow", "Delta Lake", "SHAP", "Credit Risk"],
+            category: "Machine Learning"
+        },
+        {
             name: "BloodCall",
             subtitle: "Google Solution Challenge - Top 10 Finalist 🏆",
             description: "Android application for blood donation management competing against 4,000+ global teams. Helps solve UN Sustainable Development Goals through technology.",
@@ -44,15 +53,6 @@ const Portfolio = () => {
             image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
             tags: ["Python", "NLP", "Scikit-learn", "Pandas", "Text Mining", "EDA"],
             category: "Machine Learning"
-        },
-        {
-            name: "FreePass",
-            subtitle: "Full-Stack Web Application",
-            description: "Unemployment services platform enabling free metro pass applications. Complete full-stack solution with Spring Boot backend, PostgreSQL database, and responsive frontend.",
-            url: "https://github.com/kitsakisGk/FreePass",
-            image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=600&h=400&fit=crop",
-            tags: ["Spring Boot", "PostgreSQL", "JavaScript", "HTML/CSS"],
-            category: "Web Development"
         }
     ];
 
