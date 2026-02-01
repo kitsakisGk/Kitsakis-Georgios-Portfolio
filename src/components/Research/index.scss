@@ -20,7 +20,7 @@
     h1 {
       font-size: 53px;
       margin-bottom: 30px;
-      color: var(--text-color);
+      color: #F0F8FF;
     }
   }
 }
@@ -30,7 +30,7 @@
   margin-bottom: 40px;
 
   h2 {
-    color: var(--secondary-color);
+    color: #00A86B;
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 25px;
@@ -45,17 +45,17 @@
 }
 
 .publication-card {
-  background: var(--surface-color);
+  background: #1a1a1a;
   padding: 30px;
   border-radius: 12px;
-  border-left: 4px solid var(--primary-color);
+  border-left: 4px solid #FF6B35;
   transition: all 0.3s ease;
   position: relative;
 
   &:hover {
     transform: translateX(5px);
-    box-shadow: 0 8px 20px var(--shadow-hover);
-    border-left-color: var(--secondary-color);
+    box-shadow: 0 8px 20px rgba(255, 107, 53, 0.2);
+    border-left-color: #00A86B;
   }
 
   .publication-header {
@@ -66,12 +66,12 @@
 
     .publication-icon {
       font-size: 24px;
-      color: var(--primary-color);
+      color: #FF6B35;
     }
 
     .publication-type {
-      background: var(--grey-dark);
-      color: var(--primary-color);
+      background: #2a2a2a;
+      color: #FF6B35;
       padding: 6px 14px;
       border-radius: 20px;
       font-size: 12px;
@@ -82,7 +82,7 @@
   }
 
   .publication-title {
-    color: var(--text-color);
+    color: #F0F8FF;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 12px;
@@ -90,7 +90,7 @@
   }
 
   .publication-authors {
-    color: var(--text-secondary);
+    color: #8d8d8d;
     font-size: 15px;
     margin-bottom: 8px;
     font-style: italic;
@@ -100,17 +100,17 @@
     display: flex;
     gap: 20px;
     margin-bottom: 15px;
-    color: var(--text-secondary);
+    color: #8d8d8d;
     font-size: 14px;
 
     .year {
-      color: var(--primary-color);
+      color: #FF6B35;
       font-weight: 600;
     }
   }
 
   .publication-description {
-    color: var(--text-color);
+    color: #F0F8FF;
     font-size: 15px;
     line-height: 1.7;
     margin-bottom: 20px;
@@ -123,8 +123,8 @@
     margin-bottom: 15px;
 
     .keyword-tag {
-      background: var(--grey-dark);
-      color: var(--text-secondary);
+      background: #2a2a2a;
+      color: #8d8d8d;
       padding: 6px 12px;
       border-radius: 6px;
       font-size: 12px;
@@ -132,8 +132,8 @@
       transition: all 0.2s ease;
 
       &:hover {
-        background: var(--secondary-color);
-        color: var(--background-color);
+        background: #00A86B;
+        color: #0a0a0a;
       }
     }
   }
@@ -153,13 +153,13 @@
 
     &.completed {
       background: rgba(0, 168, 107, 0.2);
-      color: var(--secondary-color);
-      border: 1px solid var(--secondary-color);
+      color: #00A86B;
+      border: 1px solid #00A86B;
     }
   }
 
   .view-project-btn {
-    background: var(--primary-color);
+    background: #FF6B35;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -171,7 +171,7 @@
     letter-spacing: 0.5px;
 
     &:hover {
-      background: var(--secondary-color);
+      background: #00A86B;
       transform: translateY(-2px);
       box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
     }
@@ -185,27 +185,27 @@
 }
 
 .project-card {
-  background: var(--surface-color);
+  background: #1a1a1a;
   padding: 25px;
   border-radius: 10px;
-  border: 2px solid var(--grey-dark);
+  border: 2px solid #2a2a2a;
   transition: all 0.3s ease;
 
   &:hover {
-    border-color: var(--primary-color);
+    border-color: #FF6B35;
     transform: translateY(-5px);
-    box-shadow: 0 8px 20px var(--shadow-hover);
+    box-shadow: 0 8px 20px rgba(255, 107, 53, 0.2);
   }
 
   h3 {
-    color: var(--text-color);
+    color: #F0F8FF;
     font-size: 20px;
     margin-bottom: 12px;
     font-weight: 600;
   }
 
   p {
-    color: var(--text-secondary);
+    color: #8d8d8d;
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -214,7 +214,7 @@
   .project-status {
     display: inline-block;
     background: rgba(255, 107, 53, 0.2);
-    color: var(--primary-color);
+    color: #FF6B35;
     padding: 6px 12px;
     border-radius: 6px;
     font-size: 12px;
@@ -228,8 +228,8 @@
     gap: 8px;
 
     .tech-tag {
-      background: var(--grey-dark);
-      color: var(--text-secondary);
+      background: #2a2a2a;
+      color: #8d8d8d;
       padding: 5px 10px;
       border-radius: 5px;
       font-size: 11px;
@@ -245,53 +245,53 @@
 }
 
 .interest-card {
-  background: var(--surface-color);
+  background: #1a1a1a;
   padding: 18px 20px;
   border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 12px;
-  color: var(--text-color);
+  color: #F0F8FF;
   font-size: 15px;
   font-weight: 500;
   border: 2px solid transparent;
   transition: all 0.3s ease;
 
   &:hover {
-    border-color: var(--secondary-color);
+    border-color: #00A86B;
     transform: translateX(5px);
-    background: var(--grey-dark);
+    background: #2a2a2a;
   }
 
   .interest-bullet {
-    color: var(--primary-color);
+    color: #FF6B35;
     font-size: 20px;
     font-weight: bold;
   }
 }
 
 .education-card {
-  background: var(--surface-color);
+  background: #1a1a1a;
   padding: 30px;
   border-radius: 12px;
-  border: 2px solid var(--secondary-color);
+  border: 2px solid #00A86B;
 
   h3 {
-    color: var(--primary-color);
+    color: #FF6B35;
     font-size: 24px;
     margin-bottom: 10px;
     font-weight: 600;
   }
 
   h4 {
-    color: var(--text-secondary);
+    color: #8d8d8d;
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: 500;
   }
 
   p {
-    color: var(--text-color);
+    color: #F0F8FF;
     font-size: 15px;
     line-height: 1.7;
     margin: 0;
@@ -340,10 +340,15 @@
       font-size: 14px;
     }
 
+    .publication-footer {
+      flex-direction: column;
+      gap: 15px;
+      align-items: flex-start;
+    }
+
     .publication-status {
       position: static;
       display: inline-block;
-      margin-top: 10px;
     }
   }
 
