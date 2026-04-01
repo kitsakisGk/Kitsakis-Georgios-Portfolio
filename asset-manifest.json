@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Kitsakis-Georgios-Portfolio/static/css/main.f6dcd134.css",
-    "main.js": "/Kitsakis-Georgios-Portfolio/static/js/main.36279d10.js",
+    "main.css": "/Kitsakis-Georgios-Portfolio/static/css/main.e925517a.css",
+    "main.js": "/Kitsakis-Georgios-Portfolio/static/js/main.4828c874.js",
     "static/js/453.ccda90dd.chunk.js": "/Kitsakis-Georgios-Portfolio/static/js/453.ccda90dd.chunk.js",
     "static/media/Logo_GK.png": "/Kitsakis-Georgios-Portfolio/static/media/Logo_GK.a75f8fccf448d4d82fd3.png",
     "index.html": "/Kitsakis-Georgios-Portfolio/index.html",
-    "main.f6dcd134.css.map": "/Kitsakis-Georgios-Portfolio/static/css/main.f6dcd134.css.map",
-    "main.36279d10.js.map": "/Kitsakis-Georgios-Portfolio/static/js/main.36279d10.js.map",
+    "main.e925517a.css.map": "/Kitsakis-Georgios-Portfolio/static/css/main.e925517a.css.map",
+    "main.4828c874.js.map": "/Kitsakis-Georgios-Portfolio/static/js/main.4828c874.js.map",
     "453.ccda90dd.chunk.js.map": "/Kitsakis-Georgios-Portfolio/static/js/453.ccda90dd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6dcd134.css",
-    "static/js/main.36279d10.js"
+    "static/css/main.e925517a.css",
+    "static/js/main.4828c874.js"
   ]
 }
