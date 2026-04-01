@@ -106,7 +106,15 @@ const About = () => {
             <div className="experience-item">
               <div className="experience-header">
                 <h3>Data Engineer</h3>
-                <span className="date">Nov 2024 - Present</span>
+                <span className="date">Apr 2026 - Present</span>
+              </div>
+              <h4>Intrum</h4>
+            </div>
+
+            <div className="experience-item">
+              <div className="experience-header">
+                <h3>Data Engineer</h3>
+                <span className="date">Nov 2024 - Mar 2026</span>
               </div>
               <h4>Accenture</h4>
               <ul>
