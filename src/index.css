@@ -14,21 +14,6 @@
   --shadow-hover: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme='light'] {
-  /* Light Theme */
-  --primary-color: #FF6B35;
-  --secondary-color: #00A86B;
-  --dark-green: #123524;
-  --background-color: #ffffff;
-  --surface-color: #f5f5f5;
-  --text-color: #1a1a1a;
-  --text-secondary: #4a4a4a;
-  --grey-dark: #e0e0e0;
-  --grey-medium: #c0c0c0;
-  --grey-light: #a0a0a0;
-  --shadow: rgba(0, 0, 0, 0.1);
-  --shadow-hover: rgba(0, 0, 0, 0.2);
-}
 
 html {
   font-size: 62.5%;
